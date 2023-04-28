@@ -2,14 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/[Ll]ibrary/
-/Streetrunners/Library/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+/Streetrunners/[Ll]ibrary/
+/Streetrunners/[Tt]emp/
+/Streetrunners/[Oo]bj/
+/Streetrunners/[Bb]uild/
+/Streetrunners/[Bb]uilds/
+/Streetrunners/[Ll]ogs/
+/Streetrunners/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
