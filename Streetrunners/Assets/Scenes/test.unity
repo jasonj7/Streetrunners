@@ -246,7 +246,7 @@ MonoBehaviour:
   speed: 20
   timedJump: 0.35
   minJump: 0.15
-  moveSpeed: 1
+  moveSpeed: 5
 --- !u!212 &459529937
 SpriteRenderer:
   m_ObjectHideFlags: 0
