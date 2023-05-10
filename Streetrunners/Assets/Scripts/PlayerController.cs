@@ -16,10 +16,15 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     private float minJump;
+
+    [SerializeField]
+    private float moveSpeed;
+
     // Start is called before the first frame update
     void Start()
     {
         isOnGround = true;
+
     }
 
     // Update is called once per frame
@@ -37,7 +42,12 @@ public class PlayerController : MonoBehaviour
                 jumpTimer = timedJump;
             }
             playerrb.AddForce(Vector2.up * speed * (jumpTimer + minJump), ForceMode2D.Impulse);
+
+
             
+
         }
+        // Movement
+        transform.position += new Vector3(moveSpeed * Time.deltaTime, 0f, 0f);
     }
 }
