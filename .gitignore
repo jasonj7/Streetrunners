@@ -71,3 +71,26 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+<<<<<<< Updated upstream
+=======
+Streetrunners/Logs/AssetImportWorker1.log
+Streetrunners/Temp/FSTimeGet-f758226bfeffbe14eaa9dcd18dbca81b
+*.log
+*.log
+Streetrunners/Temp/__Backupscenes/0.backup
+Streetrunners/Temp/UnityLockfile
+Streetrunners/Temp/workerlic
+Streetrunners/Logs/shadercompiler-UnityShaderCompiler.exe9.log
+Streetrunners/Logs/shadercompiler-UnityShaderCompiler.exe8.log
+Streetrunners/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+*.log
+*.log
+Streetrunners/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+Streetrunners/Logs/AssetImportWorker0.log
+Streetrunners/Logs/AssetImportWorker1.log
+Streetrunners/Logs/shadercompiler-AssetImportWorker0.log
+>>>>>>> Stashed changes
+*.log
+*.log
+Streetrunners/Logs/AssetImportWorker1-prev.log
+Streetrunners/Logs/AssetImportWorker1.log
