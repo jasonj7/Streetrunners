@@ -19,7 +19,11 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Project
+=======
+  m_Title: Hierarchy
+>>>>>>> parent of 9e86967 (Start and Pause Menu)
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +52,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 21
+=======
+  controlID: 82
+>>>>>>> parent of 9e86967 (Start and Pause Menu)
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -92,8 +100,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 361
     height: 650
+=======
+    width: 288.8
+    height: 496
+>>>>>>> parent of 9e86967 (Start and Pause Menu)
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
@@ -223,7 +236,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 62
+=======
+  controlID: 83
+>>>>>>> parent of 9e86967 (Start and Pause Menu)
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +265,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 63
+=======
+  controlID: 84
+>>>>>>> parent of 9e86967 (Start and Pause Menu)
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,22 +339,29 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Owner\Documents\GitHub\Streetrunners\Streetrunners
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 5c600000
     m_LastClickedID: 24668
     m_ExpandedIDs: 000000005460000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 8e8c0000
+    m_LastClickedID: 35982
+    m_ExpandedIDs: 000000008a8c000000ca9a3bffffff7f
+>>>>>>> parent of 9e86967 (Start and Pause Menu)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +389,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000054600000
+=======
+    m_ExpandedIDs: 
+>>>>>>> parent of 9e86967 (Start and Pause Menu)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,7 +421,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000000000000
+    m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -449,7 +481,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: -160
+    m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -493,7 +525,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 66600000
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 2cf8fffff6f8ffffb6f9ffff24faffff10fbffffe060000014610000
+=======
+      m_ExpandedIDs: b4c8ffffc6c9ffff
+>>>>>>> parent of 9e86967 (Start and Pause Menu)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -798,9 +834,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 7.392185, y: 1.5389786, z: 4.809704}
     speed: 2
     m_Value: {x: 7.921051, y: 1.5562352, z: 4.8035827}
+=======
+    m_Target: {x: -2.7253833, y: 1.4037137, z: -0.014116665}
+    speed: 2
+    m_Value: {x: -2.7253833, y: 1.4037137, z: -0.014116665}
+>>>>>>> parent of 9e86967 (Start and Pause Menu)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -851,9 +893,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 12.990188
     speed: 2
     m_Value: 13.602291
+=======
+    m_Target: 11.411661
+    speed: 2
+    m_Value: 11.411661
+>>>>>>> parent of 9e86967 (Start and Pause Menu)
   m_Ortho:
     m_Target: 1
     speed: 2
