@@ -71,8 +71,11 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> parent of 5355d8c (Revert "Merge branch 'main' of https://github.com/jasonj7/Streetrunners")
 Streetrunners/Logs/AssetImportWorker1.log
 Streetrunners/Temp/FSTimeGet-f758226bfeffbe14eaa9dcd18dbca81b
 *.log
@@ -86,6 +89,7 @@ Streetrunners/Logs/shadercompiler-UnityShaderCompiler.exe0.log
 *.log
 *.log
 Streetrunners/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+<<<<<<< HEAD
 Streetrunners/Logs/AssetImportWorker0.log
 Streetrunners/Logs/AssetImportWorker1.log
 Streetrunners/Logs/shadercompiler-AssetImportWorker0.log
@@ -94,3 +98,5 @@ Streetrunners/Logs/shadercompiler-AssetImportWorker0.log
 *.log
 Streetrunners/Logs/AssetImportWorker1-prev.log
 Streetrunners/Logs/AssetImportWorker1.log
+=======
+>>>>>>> parent of 5355d8c (Revert "Merge branch 'main' of https://github.com/jasonj7/Streetrunners")
