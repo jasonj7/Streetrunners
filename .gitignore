@@ -72,8 +72,11 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> parent of 5355d8c (Revert "Merge branch 'main' of https://github.com/jasonj7/Streetrunners")
 =======
 >>>>>>> parent of 5355d8c (Revert "Merge branch 'main' of https://github.com/jasonj7/Streetrunners")
 Streetrunners/Logs/AssetImportWorker1.log
@@ -90,6 +93,7 @@ Streetrunners/Logs/shadercompiler-UnityShaderCompiler.exe0.log
 *.log
 Streetrunners/Logs/shadercompiler-UnityShaderCompiler.exe0.log
 <<<<<<< HEAD
+<<<<<<< HEAD
 Streetrunners/Logs/AssetImportWorker0.log
 Streetrunners/Logs/AssetImportWorker1.log
 Streetrunners/Logs/shadercompiler-AssetImportWorker0.log
@@ -98,5 +102,7 @@ Streetrunners/Logs/shadercompiler-AssetImportWorker0.log
 *.log
 Streetrunners/Logs/AssetImportWorker1-prev.log
 Streetrunners/Logs/AssetImportWorker1.log
+=======
+>>>>>>> parent of 5355d8c (Revert "Merge branch 'main' of https://github.com/jasonj7/Streetrunners")
 =======
 >>>>>>> parent of 5355d8c (Revert "Merge branch 'main' of https://github.com/jasonj7/Streetrunners")
