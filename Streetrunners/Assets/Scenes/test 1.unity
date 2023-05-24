@@ -1011,7 +1011,7 @@ MonoBehaviour:
   speed: 20
   timedJump: 0.35
   minJump: 0.15
-  moveSpeed: 1
+  moveSpeed: 4
   RestartText: {fileID: 1495390330}
 --- !u!212 &459529937
 SpriteRenderer:
