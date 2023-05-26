@@ -8,20 +8,30 @@ public class CharingBar : MonoBehaviour
     private PlayerController playerController;
     public GameObject Player;
     public Slider Charingbar;
-    private float maxtime;
     private float currenttime;
     // Start is called before the first frame update
     void Start()
     {
-        
-        //maxtime = playerController.timedJump;
-        Charingbar.maxValue = maxtime;
+        playerController = Player.GetComponent<PlayerController>();
+        Charingbar.maxValue = playerController.timedJump;
+        gameObject.SetActive(false);
+        currenttime = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //currenttime = playerController.jumpTimer;
-        Charingbar.value = currenttime;
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            //gameObject.SetActive(true);
+            currenttime += Time.fixedDeltaTime;
+            Charingbar.value = currenttime;
+        } else if (Input.GetKeyUp(KeyCode.Space))
+        {
+            currenttime = 0;
+            //gameObject.SetActive(false);
+        }
+
+        Debug.Log(currenttime);
     }
 }

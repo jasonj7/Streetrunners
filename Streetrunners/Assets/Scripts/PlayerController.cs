@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    private bool isOnGround;
     public Rigidbody2D playerrb;
     public float jumpTimer;
     
@@ -26,12 +25,15 @@ public class PlayerController : MonoBehaviour
 
     private bool Death;
 
+    public GameObject charingbar;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        isOnGround = true;
         Death = false;
         RestartText.SetActive(false);
+        charingbar.SetActive(false);
     }
 
     // Update is called once per frame
@@ -42,8 +44,10 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
                     {
                         jumpTimer = Time.fixedTime;
+                        charingbar.SetActive(true);
+
                     }
-                    else if (Input.GetKeyUp(KeyCode.Space) && isOnGround && playerrb.velocity.y > -0.1f && playerrb.velocity.y < 0.1f)
+                    else if (Input.GetKeyUp(KeyCode.Space) && playerrb.velocity.y > -0.1f && playerrb.velocity.y < 0.1f)
                     {
                         jumpTimer = Time.fixedTime - jumpTimer;
                         if (jumpTimer > timedJump)
@@ -51,6 +55,7 @@ public class PlayerController : MonoBehaviour
                             jumpTimer = timedJump;
                         }
                         playerrb.AddForce(Vector2.up * speed * (jumpTimer + minJump), ForceMode2D.Impulse);
+                        charingbar.SetActive(false);
 
 
             
