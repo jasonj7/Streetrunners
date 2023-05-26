@@ -14,24 +14,23 @@ public class CharingBar : MonoBehaviour
     {
         playerController = Player.GetComponent<PlayerController>();
         Charingbar.maxValue = playerController.timedJump;
-        gameObject.SetActive(false);
         currenttime = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        Charingbar.value = currenttime;
+
+        if (Input.GetKey(KeyCode.Space))
         {
-            //gameObject.SetActive(true);
-            currenttime += Time.fixedDeltaTime;
-            Charingbar.value = currenttime;
-        } else if (Input.GetKeyUp(KeyCode.Space))
+            currenttime += Time.deltaTime;
+        }  else
         {
             currenttime = 0;
-            //gameObject.SetActive(false);
         }
 
-        Debug.Log(currenttime);
     }
+
+
 }

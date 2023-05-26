@@ -44,7 +44,11 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
                     {
                         jumpTimer = Time.fixedTime;
-                        charingbar.SetActive(true);
+                if (playerrb.velocity.y > -0.1f && playerrb.velocity.y < 0.1f)
+                {
+                    charingbar.SetActive(true);
+                }
+
 
                     }
                     else if (Input.GetKeyUp(KeyCode.Space) && playerrb.velocity.y > -0.1f && playerrb.velocity.y < 0.1f)
