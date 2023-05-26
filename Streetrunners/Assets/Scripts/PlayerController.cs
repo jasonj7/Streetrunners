@@ -7,16 +7,16 @@ public class PlayerController : MonoBehaviour
 {
     private bool isOnGround;
     public Rigidbody2D playerrb;
-    private float jumpTimer;
+    public float jumpTimer;
     
     [SerializeField]
     private float speed;    
     
     [SerializeField]
-    private float timedJump;
+    public float timedJump;
 
     [SerializeField]
-    private float minJump;
+    float minJump;
 
     [SerializeField]
     private float moveSpeed;
